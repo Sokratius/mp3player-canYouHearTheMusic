@@ -7,8 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CanYouHearTheMusic</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/favicon.png">
+    <script src="https://kit.fontawesome.com/9cd121ad59.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header id="header">
+        <h1 id="header-title">Can you hear the music?</h1>
+    </header>
+    <main id="main">
+        <div class="mp3-player">
+            <div class="player-screen">
+                <div class="screen-image">
+                    <img src="images/Can-you-hear-the-music.png" alt="Cover art" class="screen-image-content">
+                </div>
+                <p class="song-name">Can you hear the music? - Ludwig Göransson</p>
+            </div>
+            <div class="player-sound-bar">
+                <div class="volume-range"></div>
+                <button class="mute-button">
+                    <i class="fa-solid fa-volume-high"></i>
+<!--                    <i class="fa-solid fa-volume-low"></i>-->
+<!--                    <i class="fa-solid fa-volume-xmark"></i>-->
+                </button>
+            </div>
+            <div class="player-control-panel">
+                <i class="fa-light fa-circle-play"></i>
+            </div>
+        </div>
+
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
+
