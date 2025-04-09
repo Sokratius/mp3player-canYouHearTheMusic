@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mp3-player {
+    position: relative;
+    margin-inline: auto;
+
+}
